@@ -1,0 +1,35 @@
+﻿@page "{id:int}"
+@model LabTracker.Pages.Courses.AssignInstructorModel
+@{
+    ViewData["Title"] = "Enroll";
+}
+
+<h2>Assign Your Courses</h2>
+
+<div>
+    <hr />
+    <form method="post">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="from-group">
+                    <label asp-for="CourseNames" class="control-label">Please select all of the courses to be assigned to.</label>
+                    <select asp-for="CourseIDs" class="form-control select-list" asp-items="@Model.CourseNames"></select>
+                    <span asp-validation-for="CourseNames" class="text-danger"></span>
+                </div>
+                <span class="text-danger">@Html.ValidationMessage("No Course Selected")</span>
+                <div class="form-group">
+                    <br />
+                    <input type="hidden" asp-for="Instructor.InstructorID" />
+                    <input type="submit" value="Assign" class="btn btn-default" />
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+<div>
+    <a asp-page="/Instructors/Index">Back to Instructor</a> |
+    <a asp-page="./Index">Back to Courses</a> 
+</div>
+<script>
+
+</script>

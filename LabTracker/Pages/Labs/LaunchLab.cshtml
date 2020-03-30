@@ -1,0 +1,82 @@
+﻿@page "{id:int?}"
+@model LabTracker.Pages.Labs.LaunchLabModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2>Launch @Model.Lab.Name?</h2><hr />
+<p>Warning...Launching a lab will sign you out of the Lab Tracker Program. You will need to exit the lab and sign back in to access your profile.</p><br />
+@* Call the launchLab() function when user clicks the launchButton*@
+<div class="launchLabButton">
+    <button onclick="launchLab()" id="launchButton">Launch Lab!</button>
+</div>
+
+<div>
+    <br /><br />
+    <a asp-page="./Edit" asp-route-id="@Model.Lab.LabID">Edit</a> |
+    <a asp-page="./Index">Back to Labs</a>
+</div>
+@* Modal form for students to sign in and out of lab *@
+<div id="openModal" class="modalPop">
+    <div id="startLab" class="modal" data-backdrop="static" data-keyboard="false">
+        <form class="model-content animate" method="post">
+            <div class="container-modal">
+                <div class="model-image">
+                    <img src="~/images/titan-2.png" />
+                </div>
+                <div class="modal-text">
+                    <h3>Please Sign In or Sign Out of Lab</h3>
+                </div>
+            @* Alert information from user input *@
+                <div class="alert-info">
+                    @if (Model.SuccessLogin)
+                    {
+                        <p style="color:black;">You have successfully signed in!</p>
+                    }
+                    @if (Model.SuccessLogout)
+                    {
+                        <p style="color:black;">You have successfully signed out!</p>
+                    }
+                    <p style="color:red;">
+                        @Html.ValidationMessage("Error")
+                    </p>
+                </div>
+                @* input text box for student id input *@
+                <div class="student-input">              
+                    <label asp-for="@Model.StudentID" class="control-label login-label">Student ID</label>
+                    <input asp-for="@Model.StudentID" onfocus="if (this.value == 'value') {this.value = '';}" value="value" class="form-control" id="studentIDInput" placeholder="Student #" />
+                </div>
+                @* submit buttons for sign in, sign out, and exit lab *@
+                <div class="submit-buttons">
+                    <button type="submit" name="command" id="signInBtn" value="Login" class="btn btn-default">Sign In</button>
+                    <button type="submit" name="command" id="signOutBtn" value="Logout" class="btn btn-default">Sign Out</button>
+                </div>
+                <div class="end-lab">
+                    <button id="endLab" type="submit" name="command" value="EndLab" class="btn btn-danger">End Lab</button>
+                </div>
+            </div><br />
+
+            @Html.AntiForgeryToken()
+        </form>
+    </div>
+</div>
+@* Script for the lanchLab() function, which opens the popup modal sign in form. Also statements history.pushState()...
+    which prevents user from backing out of lab back into the program.*@
+<script>
+    if (sessionStorage.getItem("Signin") != null) {
+        document.getElementById('startLab').style.display = 'block';
+    }
+    var modal = document.getElementById('startLab');
+
+    function launchLab() {
+        history.pushState(null, null, location.href);
+        window.onpopstate = function () {
+            history.go(1);
+        }
+        document.getElementById('startLab').style.display = 'block';
+        sessionStorage.setItem("Signin", "true");
+    }
+
+    document.getElementById('endLab').onclick = function () { sessionStorage.removeItem("Signin"); };
+</script>

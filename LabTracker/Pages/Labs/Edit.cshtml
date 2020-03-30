@@ -1,0 +1,60 @@
+﻿@page "{id:int}"
+@model LabTracker.Pages.Labs.EditModel
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h2>Edit Lab</h2>
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Lab.LabID" />
+            <div class="form-group">
+                <label asp-for="Lab.Name" class="control-label"></label>
+                <input asp-for="Lab.Name" class="form-control" />
+                <span asp-validation-for="Lab.Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Lab.Campus" class="control-label"></label>
+                <input asp-for="Lab.Campus" class="form-control" />
+                <span asp-validation-for="Lab.Campus" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Lab.Building" class="control-label"></label>
+                <input asp-for="Lab.Building" class="form-control" />
+                <span asp-validation-for="Lab.Building" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Lab.Room" class="control-label"></label>
+                <input asp-for="Lab.Room" class="form-control" />
+                <span asp-validation-for="Lab.Room" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Lab.LabStart" class="control-label"></label>
+                <input asp-for="Lab.LabStart" class="form-control" />
+                <span asp-validation-for="Lab.LabStart" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Lab.LabEnd" class="control-label"></label>
+                <input asp-for="Lab.LabEnd" class="form-control" />
+                <span asp-validation-for="Lab.LabEnd" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-default" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="./Index">Back to Labs</a> |
+    <a asp-page="/Instructors/Index">Back to Instructor</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

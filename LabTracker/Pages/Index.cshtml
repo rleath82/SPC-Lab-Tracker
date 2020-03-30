@@ -1,0 +1,46 @@
+﻿@page
+@model IndexModel
+@addTagHelper *, Microsoft/AspNetCore.Mvc.TagHelpers
+@{
+    ViewData["Title"] = "Login";
+    Layout = "~/Pages/Shared/_LoginLayout.cshtml";
+}
+
+<!DOCTYPE html> 
+<head>
+    @* Add CSS stylesheet here *@
+</head>
+<html>
+<body>
+    <div class="login-page">
+        <center>
+            <span class="logon-header">Please sign in to your account.</span>
+        </center>
+        <br />
+        <div class="form">
+            <form method="post" id="loginForm">
+                <table>
+                    <tr>
+                        <td><label asp-for="loginData.Email" class="control-label login-label">Email:</label></td>
+                        <td><input asp-for="loginData.Email" class="form-control" /></td>
+                    </tr>
+                    <tr>
+                        <td><label asp-for="loginData.Password" class="control-label login-label">Password:</label></td>
+                        <td><input asp-for="loginData.Password" class="form-control" /></td>
+                    </tr>
+                    <tr>
+                        <td><label asp-for="loginData.RememberMe" class="checkbox">Remember me: </label></td>
+                        <td><input asp-for="loginData.RememberMe" class="checkbox" /></td>
+                    </tr>
+                </table>
+                <input type="submit" value="Login" class="btn btn-default" />
+                <div asp-validation-summary="All" class="text-danger error-list"></div>
+                @Html.AntiForgeryToken()
+            </form>
+        </div>
+        <center><a asp-page="/Instructors/Create" id="Register">Register as a new user!</a></center>
+    </div>
+</body>
+</html>
+
+

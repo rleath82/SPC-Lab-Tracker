@@ -1,0 +1,19 @@
+﻿@page "{id:int}"
+@model LabTracker.Pages.Students.UnenrollLabModel
+
+@{
+    ViewData["Title"] = "Remove Lab";
+}
+
+<h2>Remove Lab</h2>
+
+<p class="text-danger">@Model.ErrorMessage</p>
+
+<h3>Are you sure you want to remove this lab?</h3>
+<div>
+    <form method="post">
+        <input type="hidden" asp-for="Student.StudentID" />
+        <input type="submit" value="Delete" class="btn btn-default" /> |
+        <a asp-page="./Details">Back to Student Details</a>
+    </form>
+</div>

@@ -1,0 +1,178 @@
+﻿@page "{id:int?}"
+@model DashboardModel
+
+@{
+    ViewData["Title"] = "Dashboard";
+}
+
+<h2>Instructors Dashboard</h2>
+<br />
+<table class="table">
+    <thead>
+        <tr>
+            <th></th>
+            <th>Last Name</th>
+            <th>First Name</th>
+            <th>Courses</th>
+            <th>Labs</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Instructor.Instructors)
+        {
+            string selectedRow = "";
+            if (item.InstructorID == Model.InstructorID)
+            {
+                selectedRow = "success";
+            }
+        <tr class="@selectedRow">
+            <td>
+                <a asp-page="./Dashboard" asp-route-id="@item.InstructorID">Select</a>
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LastName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FirstMidName)
+            </td>
+            <td>
+                @{
+                    foreach (var course in item.CourseAssignments)
+                    {
+                        @course.Course.CourseNum @:&nbsp; @course.Course.Title <br />
+                    }
+                }
+            </td>
+            <td>
+                @{
+                    foreach (var lab in item.LabAssignments)
+                    {
+                        @lab.Lab.Name <br />
+                    }
+                }
+            </td>
+        </tr>
+        }
+    </tbody>
+</table>
+
+@if (Model.Instructor.Courses != null)
+{
+    <h3>Courses Taught by Selected Instructor</h3>
+    <table class="table">
+        <tr>
+            <th></th>
+            <th>Prefix</th>
+            <th>Title</th>
+        </tr>
+
+        @foreach (var item in Model.Instructor.Courses)
+        {
+            string selectedRow = "";
+            if (item.CourseID == Model.CourseID)
+            {
+                selectedRow = "success";
+            }
+            <tr class="@selectedRow">
+                <td>
+                    <a asp-page="/Dashboard" asp-route-courseID="@item.CourseID">Select</a>
+                </td>
+                <td>
+                    @item.CourseNum
+                </td>
+                <td>
+                    @item.Title
+                </td>
+            </tr>
+        }
+    </table>
+}
+
+@if (Model.Instructor.CourseEnrollments != null)
+{
+    <h3>Students Enrolled in Selected Course</h3>
+    <table class="table">
+        <tr>
+            <th>Name</th>
+            <th>Student Number</th>
+        </tr>
+        @foreach (var item in Model.Instructor.CourseEnrollments)
+        {
+            <tr>
+                <td>
+                    @item.Student.FullName
+                </td>
+                <td>
+                    @item.StudentID
+                </td>
+
+            </tr>
+        }
+    </table>
+}
+
+@if (Model.Instructor.Labs != null)
+{
+    <h3>Labs Instructed</h3>
+    <table class="table">
+        <tr>
+            <th></th>
+            <th>Lab Name</th>
+            <th>Lab Start Date/Time</th>
+            <th>Lab End Date/Time</th>
+        </tr>
+
+        @foreach (var item2 in Model.Instructor.Labs)
+        {
+            string selectedRow = "";
+            if (item2.LabID == Model.LabID)
+            {
+                selectedRow = "success";
+            }
+            <tr class="@selectedRow">
+                <td>
+                    <a asp-page="/Dashboard" asp-route-labID="@item2.LabID">Select</a>
+                </td>
+                <td>
+                    @item2.Name
+                </td>
+                <td>
+                    @item2.LabStart
+                </td>
+                <td>
+                    @item2.LabEnd
+                </td>
+            </tr>
+        }
+    </table>
+}
+
+@if (Model.Instructor.LabEnrollments != null)
+{
+    <h3>Students Enrolled in Selected Lab</h3>
+    <table class="table">
+        <tr>
+            <th>Name</th>
+            <th>Student Number</th>
+            <th>Sign In Date/Time</th>
+            <th>Sign Out Date/Time</th>
+        </tr>
+        @foreach (var item2 in Model.Instructor.LabEnrollments)
+        {
+            <tr class="selected">
+                <td>
+                    @item2.Student.FullName
+                </td>
+                <td>
+                    @item2.StudentID
+                </td>
+                <td>
+                    @item2.LabSignIn
+                </td>
+                <td>
+                    @item2.LabSignOut
+                </td>
+            </tr>
+        }
+    </table>
+}

@@ -1,0 +1,87 @@
+﻿@page "{id:int}"
+@model LabTracker.Pages.Students.DetailsModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2>Student Details</h2>
+
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Student.StudentID)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Student.StudentID)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Student.LastName)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Student.LastName)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Student.FirstMidName)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Student.FirstMidName)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Student.CourseEnrollments)
+        </dt>
+        <dd>
+            <table class="table">
+                <tr>
+                    <th>Course Number</th>
+                    <th>Course Title</th>
+                </tr>
+                @foreach (var item in Model.Student.CourseEnrollments)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Course.CourseNum)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Course.Title)
+                        </td>
+                        <td>
+                            <a asp-page="./UnenrollCourse" asp-route-id="@Model.Student.StudentID" asp-route-courseId="@item.Course.CourseID">Remove</a>                            
+                        </td>
+                    </tr>
+                }
+            </table>
+        </dd>
+        <dd>
+            <table class="table">
+                <tr>
+                    <th>Lab Title</th>
+                    <th>Lab Sign In Date/Time</th>
+                    <th>Lab Sign Out Date/Time</th>
+                </tr>
+                @foreach (var item in Model.Student.LabEnrollments)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Lab.Name)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.LabSignIn)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.LabSignOut)
+                        </td>
+                        <td>
+                            <a asp-page="./UnenrollLab" asp-route-id="@Model.Student.StudentID" asp-route-labId="@item.Lab.LabID">Remove</a>
+                        </td>
+                    </tr>
+                }
+            </table>
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-page="./Edit" asp-route-id="@Model.Student.StudentID">Edit</a> |
+    <a asp-page="./Index">Back to List</a>
+</div>

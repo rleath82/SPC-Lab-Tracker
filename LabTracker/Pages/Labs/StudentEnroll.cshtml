@@ -1,0 +1,32 @@
+﻿@page "{id:int}"
+@model LabTracker.Pages.Labs.StudentEnrollModel
+@{
+    ViewData["Title"] = "Enroll";
+}
+
+<h2>Enroll Student in Lab(s)</h2>
+
+<div>
+    <hr />
+    <form method="post">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="from-group">
+                    <label asp-for="LabNames" class="control-label">Please select all of the labs for <span class="alert-text">@Model.Student.FirstMidName @Model.Student.LastName</span> to be assigned to.</label>
+                    <select asp-for="LabIDs" class="form-control select-list" asp-items="@Model.LabNames"></select>
+                    <span asp-validation-for="LabNames" class="text-danger"></span>
+                </div>
+                <span class="text-danger">@Html.ValidationMessage("No Lab Selected")</span>
+                <div class="form-group">
+                    <br />
+                    <input type="hidden" asp-for="Student.StudentID" />
+                    <input type="submit" value="Assign" class="btn btn-default" />
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+<div>
+    <a asp-page="/Students/Index">Back to Students</a> |
+    <a asp-page="./Index">Back to Labs</a>
+</div>

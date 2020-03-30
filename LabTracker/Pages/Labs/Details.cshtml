@@ -1,0 +1,36 @@
+﻿@page "{id:int}"
+@model LabTracker.Pages.Labs.DetailsModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2>Students Enrolled in @Model.Lab.Name</h2><br />
+
+@if (Model.Lab.LabEnrollments != null)
+{
+    <table class="table">
+        <tr>
+            <th>Name</th>
+            <th>Student Number</th>
+            <th></th>
+        </tr>
+        @foreach (var item in Model.Lab.LabEnrollments)
+        {
+            <tr>
+                <td>
+                    @item.Student.FullName
+                </td>
+                <td>
+                    @item.StudentID
+                </td>
+                <td><a asp-page="./Details" asp-route-studentId="@item.StudentID">Remove</a></td>
+            </tr>
+        }
+    </table>
+}
+<div>
+    <a asp-page="./Index">Back to Labs</a>
+</div>
+
+

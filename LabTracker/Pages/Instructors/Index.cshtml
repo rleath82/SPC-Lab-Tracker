@@ -1,0 +1,75 @@
+﻿@page
+@model LabTracker.Pages.Instructors.IndexModel
+
+@{
+    ViewData["Title"] = "Instructor";
+}
+
+@foreach (var item in Model.Instructor)
+{
+    var claimsIdentity = User.Identity as System.Security.Claims.ClaimsIdentity;
+
+    if (claimsIdentity != null)
+    {
+        var lastName = claimsIdentity.FindFirst(System.Security.Claims.ClaimTypes.Name);
+        var instructorID = claimsIdentity.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier);
+
+        if (lastName != null && instructorID != null & instructorID.Value.ToString().Equals(item.InstructorID.ToString()))
+        {
+            <h1>Welcome, Professor @lastName.Value.ToString()!</h1>
+            <h3>What would you like to do today?</h3><br /><br /><br />
+            <center>
+            <div class="row">    
+                <div class="col-md-2">
+                    <a asp-page="./Edit" asp-route-id="@item.InstructorID">
+                        <div class="image-text">
+                            <img src="~/images/edit-set-2-512.png" title="Edit Your Profile" alt="Edit Profile" width="100" height="100" />
+                            <p style="padding-left:5px">Edit Profile</p>
+                         </div>
+                    </a> 
+                </div>
+                <div class="col-md-2">
+                    <a asp-page="/Courses/AssignInstructor" asp-route-id="@item.InstructorID">
+                        <div class="image-text">
+                            <img src="~/images/courses.png" title="Assign Your Courses" alt="Assign Courses" width="100" height="100"/>
+                            <center><p>Assign Courses</p></center>
+                        </div>
+                    </a> 
+                </div>
+                <div class="col-md-2">
+                    <a asp-page="/Students/Create">
+                        <div class="image-text">
+                            <img src="~/images/student-1.png" title="Add Students" alt="Create Students" width="100" height="100"/>
+                            <center><p>Add Students</p></center>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-2">
+                    <a asp-page="/Labs/Create" asp-route-id="@item.InstructorID">
+                        <div class="image-text">
+                            <img src="~/images/scheduleLab.png" title="Schedule a Lab" alt="Schedule Lab" width="100" height="100"/>
+                            <center><p>Schedule a Lab</p></center>
+                        </div>
+                    </a> 
+                </div>
+                <div class="col-md-2">
+                    <a asp-page="./Details" asp-route-id="@item.InstructorID">
+                        <div class="image-text">
+                            <img src="~/images/details.png" title="Your Details" alt="Details" width="100" height="100"/>
+                            <p style="padding-left:20px">Details</p>
+                        </div>
+                    </a> 
+                </div>
+                <div class="col-md-2">
+                    <a asp-page="./Delete" asp-route-id="@item.InstructorID">
+                        <div class="image-text">
+                            <img src="~/images/delete.png" title="Delete Your Profile" alt="Delete" width="100" height="100"/>
+                            <center><p>Delete</p></center>
+                        </div>
+                    </a>
+                </div>                
+            </div>
+                </center>
+        }
+    }
+}

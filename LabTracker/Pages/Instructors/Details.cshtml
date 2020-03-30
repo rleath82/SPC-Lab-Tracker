@@ -1,0 +1,136 @@
+﻿@page "{id:int?}"
+@model LabTracker.Pages.Instructors.DetailsModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2>Your Details</h2>
+<hr /><br />
+
+@if (Model.Instructor.Courses != null)
+{
+    <h3>Courses Taught</h3>
+    <table class="table">
+        <tr>
+            <th></th>
+            <th>Course Number</th>
+            <th>Title</th>
+        </tr>
+
+        @foreach (var item in Model.Instructor.Courses)
+        {
+            string selectedRow = "";
+            if (item.CourseID == Model.CourseID)
+            {
+                selectedRow = "success";
+            }
+            <tr class="@selectedRow">
+                <td>
+                    <a asp-page="./Details" asp-route-courseID="@item.CourseID">Select</a>
+                </td>
+                <td>
+                    @item.CourseNum
+                </td>
+                <td>
+                    @item.Title
+                </td>
+                <td><a asp-page="./Details" asp-route-removeCourseID="@item.CourseID">Remove</a></td>
+            </tr>
+        }
+    </table>
+}
+
+@if (Model.Instructor.CourseEnrollments != null)
+{
+    <h3>Students Enrolled in Selected Course</h3>
+    <table class="table">
+        <tr>
+            <th>Name</th>
+            <th>Student Number</th>
+        </tr>
+        @foreach (var item in Model.Instructor.CourseEnrollments)
+        {
+            <tr>
+                <td>
+                    @item.Student.FullName
+                </td>
+                <td>
+                    @item.StudentID
+                </td>
+                <td><a asp-page="./Details" asp-route-removeEnrollmentStudent="@item.StudentID" asp-route-removeEnrollmentCourse="@item.CourseID">Remove</a></td>
+            </tr>
+        }
+    </table>
+}
+
+@if (Model.Instructor.Labs != null)
+{
+    <h3>Labs Instructed</h3>
+    <table class="table">
+        <tr>
+            <th></th>
+            <th>Lab Name</th>
+            <th>Lab Start Date/Time</th>
+            <th>Lab End Date/Time</th>
+        </tr>
+
+        @foreach (var item2 in Model.Instructor.Labs)
+        {
+            string selectedRow = "";
+            if (item2.LabID == Model.LabID)
+            {
+                selectedRow = "success";
+            }
+        <tr class="@selectedRow">
+            <td>
+                <a asp-page="./Details" asp-route-labID="@item2.LabID">Select</a>
+            </td>
+            <td>
+                @item2.Name
+            </td>
+            <td>
+                @item2.LabStart
+            </td>
+            <td>
+                @item2.LabEnd
+            </td>
+        </tr>
+        }
+    </table>
+}
+
+@if (Model.Instructor.LabEnrollments != null)
+{
+    <h3>Students Enrolled in Selected Lab</h3>
+    <table class="table">
+        <tr>
+            <th>Name</th>
+            <th>Student Number</th>
+            <th>Sign In Date/Time</th>
+            <th>Sign Out Date/Time</th>
+        </tr>
+        @foreach (var item2 in Model.Instructor.LabEnrollments)
+        {
+            <tr class="selected">
+                <td>
+                    @item2.Student.FullName
+                </td>
+                <td>
+                    @item2.StudentID
+                </td>
+                <td>
+                    @item2.LabSignIn
+                </td>
+                <td>
+                    @item2.LabSignOut
+                </td>
+            </tr>
+        }
+    </table>
+}
+
+<div>
+    <a asp-page="./Index">Back to Instructor</a> |
+    <a asp-page="/Dashboard">View All Instructors</a>
+</div>

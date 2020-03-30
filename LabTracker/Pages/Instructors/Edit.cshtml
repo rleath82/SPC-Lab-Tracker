@@ -1,0 +1,81 @@
+﻿@page "{id:int}"
+@model LabTracker.Pages.Instructors.EditModel
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h2>Edit Your Profile</h2>
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Instructor.InstructorID" />
+            <div class="form-group">
+                <label asp-for="Instructor.Email" class="control-label"></label>
+                <input asp-for="Instructor.Email" class="form-control" />
+                <span asp-validation-for="Instructor.Email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Instructor.LastName" class="control-label"></label>
+                <input asp-for="Instructor.LastName" class="form-control" />
+                <span asp-validation-for="Instructor.LastName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Instructor.FirstMidName" class="control-label"></label>
+                <input asp-for="Instructor.FirstMidName" class="form-control" />
+                <span asp-validation-for="Instructor.FirstMidName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Instructor.Password" class="control-label"></label>
+                <input asp-for="Instructor.Password" class="form-control" />
+                <span asp-validation-for="Instructor.Password" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Instructor.ConfirmPassword" class="control-label"></label>
+                <input asp-for="Instructor.ConfirmPassword" class="form-control" />
+                <span asp-validation-for="Instructor.ConfirmPassword" class="text-danger"></span>
+            </div>
+            
+            @*<div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <table>
+                        <tr>
+                            @{
+                                int cnt = 1;
+
+                                foreach (var course in Model.AssignedCourseDataList)
+                                {
+                                    if(cnt++ % 1 == 0)
+                                    {
+                                        @:</tr><tr>
+                                    }
+                                    @:<td>
+                                        <input type="checkbox"
+                                               name="selectedCourses"
+                                               value="@course.CourseID"
+                                               @(Html.Raw(course.Assigned ? "checked=\"checked\"" : "")) />
+                                        @course.CourseNum @: @course.Title
+                                    @:</td>
+                                }
+                            @:</tr>
+                            }
+                        </table>
+                    </div>
+                </div>*@
+                <div class="form-group">
+                    <input type="submit" value="Save" class="btn btn-default" />
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div>
+        <a asp-page="./Index">Back to Instructor</a>
+    </div>
+
+    @section Scripts {
+        @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    }

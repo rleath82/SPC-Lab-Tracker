@@ -1,0 +1,57 @@
+﻿@page "{id:int}"
+@model LabTracker.Pages.Labs.DeleteModel
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this lab?</h3>
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Lab.Name)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Lab.Name)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Lab.Campus)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Lab.Campus)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Lab.Building)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Lab.Building)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Lab.Room)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Lab.Room)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Lab.LabStart)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Lab.LabStart)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Lab.LabEnd)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Lab.LabEnd)
+        </dd>
+    </dl>
+    
+    <form method="post">
+        <input type="hidden" asp-for="Lab.LabID" />
+        <input type="submit" value="Delete" class="btn btn-default" /> |
+        <a asp-page="./Index">Back to Labs</a>
+    </form>
+</div>

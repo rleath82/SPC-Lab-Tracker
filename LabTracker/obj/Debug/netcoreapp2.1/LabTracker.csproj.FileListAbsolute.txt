@@ -1,0 +1,201 @@
+C:\Users\Robert Leatherman\source\repos\LabTracker\LabTracker\bin\Debug\netcoreapp2.1\LabTracker.deps.json
+C:\Users\Robert Leatherman\source\repos\LabTracker\LabTracker\bin\Debug\netcoreapp2.1\LabTracker.runtimeconfig.json
+C:\Users\Robert Leatherman\source\repos\LabTracker\LabTracker\bin\Debug\netcoreapp2.1\LabTracker.runtimeconfig.dev.json
+C:\Users\Robert Leatherman\source\repos\LabTracker\LabTracker\bin\Debug\netcoreapp2.1\LabTracker.dll
+C:\Users\Robert Leatherman\source\repos\LabTracker\LabTracker\bin\Debug\netcoreapp2.1\LabTracker.pdb
+C:\Users\Robert Leatherman\source\repos\LabTracker\LabTracker\bin\Debug\netcoreapp2.1\LabTracker.Views.dll
+C:\Users\Robert Leatherman\source\repos\LabTracker\LabTracker\bin\Debug\netcoreapp2.1\LabTracker.Views.pdb
+C:\Users\Robert Leatherman\source\repos\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\LabTracker.csproj.CoreCompileInputs.cache
+C:\Users\Robert Leatherman\source\repos\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\LabTracker.RazorAssemblyInfo.cache
+C:\Users\Robert Leatherman\source\repos\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\LabTracker.RazorAssemblyInfo.cs
+C:\Users\Robert Leatherman\source\repos\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\LabTracker.AssemblyInfoInputs.cache
+C:\Users\Robert Leatherman\source\repos\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\LabTracker.AssemblyInfo.cs
+C:\Users\Robert Leatherman\source\repos\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\LabTracker.TagHelpers.input.cache
+C:\Users\Robert Leatherman\source\repos\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\LabTracker.TagHelpers.output.cache
+C:\Users\Robert Leatherman\source\repos\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\LabTracker.RazorCoreGenerate.cache
+C:\Users\Robert Leatherman\source\repos\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\LabTracker.RazorTargetAssemblyInfo.cache
+C:\Users\Robert Leatherman\source\repos\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\LabTracker.RazorTargetAssemblyInfo.cs
+C:\Users\Robert Leatherman\source\repos\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\LabTracker.Views.pdb
+C:\Users\Robert Leatherman\source\repos\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\LabTracker.dll
+C:\Users\Robert Leatherman\source\repos\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\LabTracker.pdb
+C:\Users\Robert Leatherman\source\repos\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\LabTracker.csproj.CopyComplete
+C:\Users\Robert Leatherman\Desktop\Backup Projects\LabTracker11-6\LabTracker\LabTracker\bin\Debug\netcoreapp2.1\LabTracker.deps.json
+C:\Users\Robert Leatherman\Desktop\Backup Projects\LabTracker11-6\LabTracker\LabTracker\bin\Debug\netcoreapp2.1\LabTracker.runtimeconfig.json
+C:\Users\Robert Leatherman\Desktop\Backup Projects\LabTracker11-6\LabTracker\LabTracker\bin\Debug\netcoreapp2.1\LabTracker.runtimeconfig.dev.json
+C:\Users\Robert Leatherman\Desktop\Backup Projects\LabTracker11-6\LabTracker\LabTracker\bin\Debug\netcoreapp2.1\LabTracker.dll
+C:\Users\Robert Leatherman\Desktop\Backup Projects\LabTracker11-6\LabTracker\LabTracker\bin\Debug\netcoreapp2.1\LabTracker.pdb
+C:\Users\Robert Leatherman\Desktop\Backup Projects\LabTracker11-6\LabTracker\LabTracker\bin\Debug\netcoreapp2.1\LabTracker.Views.dll
+C:\Users\Robert Leatherman\Desktop\Backup Projects\LabTracker11-6\LabTracker\LabTracker\bin\Debug\netcoreapp2.1\LabTracker.Views.pdb
+C:\Users\Robert Leatherman\Desktop\Backup Projects\LabTracker11-6\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\LabTracker.csproj.CoreCompileInputs.cache
+C:\Users\Robert Leatherman\Desktop\Backup Projects\LabTracker11-6\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\LabTracker.RazorAssemblyInfo.cache
+C:\Users\Robert Leatherman\Desktop\Backup Projects\LabTracker11-6\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\LabTracker.RazorAssemblyInfo.cs
+C:\Users\Robert Leatherman\Desktop\Backup Projects\LabTracker11-6\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\LabTracker.AssemblyInfoInputs.cache
+C:\Users\Robert Leatherman\Desktop\Backup Projects\LabTracker11-6\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\LabTracker.AssemblyInfo.cs
+C:\Users\Robert Leatherman\Desktop\Backup Projects\LabTracker11-6\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\LabTracker.TagHelpers.input.cache
+C:\Users\Robert Leatherman\Desktop\Backup Projects\LabTracker11-6\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\LabTracker.TagHelpers.output.cache
+C:\Users\Robert Leatherman\Desktop\Backup Projects\LabTracker11-6\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\LabTracker.RazorCoreGenerate.cache
+C:\Users\Robert Leatherman\Desktop\Backup Projects\LabTracker11-6\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\Razor\Pages\About.g.cshtml.cs
+C:\Users\Robert Leatherman\Desktop\Backup Projects\LabTracker11-6\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\Razor\Pages\Contact.g.cshtml.cs
+C:\Users\Robert Leatherman\Desktop\Backup Projects\LabTracker11-6\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\Razor\Pages\Courses\AssignInstructor.g.cshtml.cs
+C:\Users\Robert Leatherman\Desktop\Backup Projects\LabTracker11-6\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\Razor\Pages\Courses\Create.g.cshtml.cs
+C:\Users\Robert Leatherman\Desktop\Backup Projects\LabTracker11-6\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\Razor\Pages\Courses\Delete.g.cshtml.cs
+C:\Users\Robert Leatherman\Desktop\Backup Projects\LabTracker11-6\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\Razor\Pages\Courses\Details.g.cshtml.cs
+C:\Users\Robert Leatherman\Desktop\Backup Projects\LabTracker11-6\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\Razor\Pages\Courses\Edit.g.cshtml.cs
+C:\Users\Robert Leatherman\Desktop\Backup Projects\LabTracker11-6\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\Razor\Pages\Courses\EnrollStudents.g.cshtml.cs
+C:\Users\Robert Leatherman\Desktop\Backup Projects\LabTracker11-6\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\Razor\Pages\Courses\Index.g.cshtml.cs
+C:\Users\Robert Leatherman\Desktop\Backup Projects\LabTracker11-6\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\Razor\Pages\Courses\UnenrollStudent.g.cshtml.cs
+C:\Users\Robert Leatherman\Desktop\Backup Projects\LabTracker11-6\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\Razor\Pages\Error.g.cshtml.cs
+C:\Users\Robert Leatherman\Desktop\Backup Projects\LabTracker11-6\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\Razor\Pages\Index.g.cshtml.cs
+C:\Users\Robert Leatherman\Desktop\Backup Projects\LabTracker11-6\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\Razor\Pages\Instructors\Create.g.cshtml.cs
+C:\Users\Robert Leatherman\Desktop\Backup Projects\LabTracker11-6\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\Razor\Pages\Instructors\Delete.g.cshtml.cs
+C:\Users\Robert Leatherman\Desktop\Backup Projects\LabTracker11-6\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\Razor\Pages\Instructors\Details.g.cshtml.cs
+C:\Users\Robert Leatherman\Desktop\Backup Projects\LabTracker11-6\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\Razor\Pages\Instructors\Edit.g.cshtml.cs
+C:\Users\Robert Leatherman\Desktop\Backup Projects\LabTracker11-6\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\Razor\Pages\Instructors\Index.g.cshtml.cs
+C:\Users\Robert Leatherman\Desktop\Backup Projects\LabTracker11-6\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\Razor\Pages\Labs\CourseEnroll.g.cshtml.cs
+C:\Users\Robert Leatherman\Desktop\Backup Projects\LabTracker11-6\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\Razor\Pages\Labs\Create.g.cshtml.cs
+C:\Users\Robert Leatherman\Desktop\Backup Projects\LabTracker11-6\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\Razor\Pages\Labs\Delete.g.cshtml.cs
+C:\Users\Robert Leatherman\Desktop\Backup Projects\LabTracker11-6\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\Razor\Pages\Labs\Edit.g.cshtml.cs
+C:\Users\Robert Leatherman\Desktop\Backup Projects\LabTracker11-6\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\Razor\Pages\Labs\EnrollStudents.g.cshtml.cs
+C:\Users\Robert Leatherman\Desktop\Backup Projects\LabTracker11-6\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\Razor\Pages\Labs\Index.g.cshtml.cs
+C:\Users\Robert Leatherman\Desktop\Backup Projects\LabTracker11-6\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\Razor\Pages\Labs\StudentEnroll.g.cshtml.cs
+C:\Users\Robert Leatherman\Desktop\Backup Projects\LabTracker11-6\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\Razor\Pages\Logout.g.cshtml.cs
+C:\Users\Robert Leatherman\Desktop\Backup Projects\LabTracker11-6\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\Razor\Pages\Privacy.g.cshtml.cs
+C:\Users\Robert Leatherman\Desktop\Backup Projects\LabTracker11-6\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\Razor\Pages\Shared\_CookieConsentPartial.g.cshtml.cs
+C:\Users\Robert Leatherman\Desktop\Backup Projects\LabTracker11-6\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\Razor\Pages\Shared\_Layout.g.cshtml.cs
+C:\Users\Robert Leatherman\Desktop\Backup Projects\LabTracker11-6\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\Razor\Pages\Shared\_LoginLayout.g.cshtml.cs
+C:\Users\Robert Leatherman\Desktop\Backup Projects\LabTracker11-6\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\Razor\Pages\Shared\_RegisterLayout.g.cshtml.cs
+C:\Users\Robert Leatherman\Desktop\Backup Projects\LabTracker11-6\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\Razor\Pages\Shared\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\Robert Leatherman\Desktop\Backup Projects\LabTracker11-6\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\Razor\Pages\Students\Create.g.cshtml.cs
+C:\Users\Robert Leatherman\Desktop\Backup Projects\LabTracker11-6\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\Razor\Pages\Students\Delete.g.cshtml.cs
+C:\Users\Robert Leatherman\Desktop\Backup Projects\LabTracker11-6\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\Razor\Pages\Students\Details.g.cshtml.cs
+C:\Users\Robert Leatherman\Desktop\Backup Projects\LabTracker11-6\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\Razor\Pages\Students\Edit.g.cshtml.cs
+C:\Users\Robert Leatherman\Desktop\Backup Projects\LabTracker11-6\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\Razor\Pages\Students\Enroll.g.cshtml.cs
+C:\Users\Robert Leatherman\Desktop\Backup Projects\LabTracker11-6\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\Razor\Pages\Students\Index.g.cshtml.cs
+C:\Users\Robert Leatherman\Desktop\Backup Projects\LabTracker11-6\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\Razor\Pages\Students\UnenrollCourse.g.cshtml.cs
+C:\Users\Robert Leatherman\Desktop\Backup Projects\LabTracker11-6\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\Razor\Pages\Students\UnenrollLab.g.cshtml.cs
+C:\Users\Robert Leatherman\Desktop\Backup Projects\LabTracker11-6\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\Razor\Pages\_ViewImports.g.cshtml.cs
+C:\Users\Robert Leatherman\Desktop\Backup Projects\LabTracker11-6\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\Razor\Pages\_ViewStart.g.cshtml.cs
+C:\Users\Robert Leatherman\Desktop\Backup Projects\LabTracker11-6\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\LabTracker.RazorTargetAssemblyInfo.cache
+C:\Users\Robert Leatherman\Desktop\Backup Projects\LabTracker11-6\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\LabTracker.RazorTargetAssemblyInfo.cs
+C:\Users\Robert Leatherman\Desktop\Backup Projects\LabTracker11-6\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\LabTracker.Views.pdb
+C:\Users\Robert Leatherman\Desktop\Backup Projects\LabTracker11-6\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\LabTracker.dll
+C:\Users\Robert Leatherman\Desktop\Backup Projects\LabTracker11-6\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\LabTracker.pdb
+C:\Users\Robert Leatherman\Desktop\Backup Projects\LabTracker11-6\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\LabTracker.csproj.CopyComplete
+C:\Users\Robert Leatherman\Desktop\Backup Projects\LabTracker11-6\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\Razor\Pages\Dashboard.g.cshtml.cs
+C:\Users\Robert Leatherman\Desktop\Backup Projects\LabTracker11-6\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\Razor\Pages\Labs\LaunchLab.g.cshtml.cs
+C:\Users\Robert Leatherman\Desktop\Backup Projects\LabTracker11-6\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\LabTracker.csprojAssemblyReference.cache
+C:\Users\Robert Leatherman\Desktop\Backup Projects\LabTracker11-20\LabTracker\LabTracker\bin\Debug\netcoreapp2.1\LabTracker.deps.json
+C:\Users\Robert Leatherman\Desktop\Backup Projects\LabTracker11-20\LabTracker\LabTracker\bin\Debug\netcoreapp2.1\LabTracker.runtimeconfig.json
+C:\Users\Robert Leatherman\Desktop\Backup Projects\LabTracker11-20\LabTracker\LabTracker\bin\Debug\netcoreapp2.1\LabTracker.runtimeconfig.dev.json
+C:\Users\Robert Leatherman\Desktop\Backup Projects\LabTracker11-20\LabTracker\LabTracker\bin\Debug\netcoreapp2.1\LabTracker.dll
+C:\Users\Robert Leatherman\Desktop\Backup Projects\LabTracker11-20\LabTracker\LabTracker\bin\Debug\netcoreapp2.1\LabTracker.pdb
+C:\Users\Robert Leatherman\Desktop\Backup Projects\LabTracker11-20\LabTracker\LabTracker\bin\Debug\netcoreapp2.1\LabTracker.Views.dll
+C:\Users\Robert Leatherman\Desktop\Backup Projects\LabTracker11-20\LabTracker\LabTracker\bin\Debug\netcoreapp2.1\LabTracker.Views.pdb
+C:\Users\Robert Leatherman\Desktop\Backup Projects\LabTracker11-20\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\LabTracker.csprojAssemblyReference.cache
+C:\Users\Robert Leatherman\Desktop\Backup Projects\LabTracker11-20\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\LabTracker.csproj.CoreCompileInputs.cache
+C:\Users\Robert Leatherman\Desktop\Backup Projects\LabTracker11-20\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\LabTracker.RazorAssemblyInfo.cache
+C:\Users\Robert Leatherman\Desktop\Backup Projects\LabTracker11-20\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\LabTracker.RazorAssemblyInfo.cs
+C:\Users\Robert Leatherman\Desktop\Backup Projects\LabTracker11-20\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\LabTracker.AssemblyInfoInputs.cache
+C:\Users\Robert Leatherman\Desktop\Backup Projects\LabTracker11-20\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\LabTracker.AssemblyInfo.cs
+C:\Users\Robert Leatherman\Desktop\Backup Projects\LabTracker11-20\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\LabTracker.TagHelpers.input.cache
+C:\Users\Robert Leatherman\Desktop\Backup Projects\LabTracker11-20\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\LabTracker.TagHelpers.output.cache
+C:\Users\Robert Leatherman\Desktop\Backup Projects\LabTracker11-20\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\LabTracker.RazorCoreGenerate.cache
+C:\Users\Robert Leatherman\Desktop\Backup Projects\LabTracker11-20\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\Razor\Pages\About.g.cshtml.cs
+C:\Users\Robert Leatherman\Desktop\Backup Projects\LabTracker11-20\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\Razor\Pages\Contact.g.cshtml.cs
+C:\Users\Robert Leatherman\Desktop\Backup Projects\LabTracker11-20\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\Razor\Pages\Courses\AssignInstructor.g.cshtml.cs
+C:\Users\Robert Leatherman\Desktop\Backup Projects\LabTracker11-20\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\Razor\Pages\Courses\Create.g.cshtml.cs
+C:\Users\Robert Leatherman\Desktop\Backup Projects\LabTracker11-20\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\Razor\Pages\Courses\Delete.g.cshtml.cs
+C:\Users\Robert Leatherman\Desktop\Backup Projects\LabTracker11-20\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\Razor\Pages\Courses\Details.g.cshtml.cs
+C:\Users\Robert Leatherman\Desktop\Backup Projects\LabTracker11-20\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\Razor\Pages\Courses\Edit.g.cshtml.cs
+C:\Users\Robert Leatherman\Desktop\Backup Projects\LabTracker11-20\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\Razor\Pages\Courses\EnrollStudents.g.cshtml.cs
+C:\Users\Robert Leatherman\Desktop\Backup Projects\LabTracker11-20\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\Razor\Pages\Courses\Index.g.cshtml.cs
+C:\Users\Robert Leatherman\Desktop\Backup Projects\LabTracker11-20\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\Razor\Pages\Courses\UnenrollStudent.g.cshtml.cs
+C:\Users\Robert Leatherman\Desktop\Backup Projects\LabTracker11-20\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\Razor\Pages\Dashboard.g.cshtml.cs
+C:\Users\Robert Leatherman\Desktop\Backup Projects\LabTracker11-20\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\Razor\Pages\Error.g.cshtml.cs
+C:\Users\Robert Leatherman\Desktop\Backup Projects\LabTracker11-20\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\Razor\Pages\Help.g.cshtml.cs
+C:\Users\Robert Leatherman\Desktop\Backup Projects\LabTracker11-20\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\Razor\Pages\Index.g.cshtml.cs
+C:\Users\Robert Leatherman\Desktop\Backup Projects\LabTracker11-20\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\Razor\Pages\Instructors\Create.g.cshtml.cs
+C:\Users\Robert Leatherman\Desktop\Backup Projects\LabTracker11-20\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\Razor\Pages\Instructors\Delete.g.cshtml.cs
+C:\Users\Robert Leatherman\Desktop\Backup Projects\LabTracker11-20\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\Razor\Pages\Instructors\Details.g.cshtml.cs
+C:\Users\Robert Leatherman\Desktop\Backup Projects\LabTracker11-20\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\Razor\Pages\Instructors\Edit.g.cshtml.cs
+C:\Users\Robert Leatherman\Desktop\Backup Projects\LabTracker11-20\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\Razor\Pages\Instructors\Index.g.cshtml.cs
+C:\Users\Robert Leatherman\Desktop\Backup Projects\LabTracker11-20\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\Razor\Pages\Labs\Create.g.cshtml.cs
+C:\Users\Robert Leatherman\Desktop\Backup Projects\LabTracker11-20\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\Razor\Pages\Labs\Delete.g.cshtml.cs
+C:\Users\Robert Leatherman\Desktop\Backup Projects\LabTracker11-20\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\Razor\Pages\Labs\Details.g.cshtml.cs
+C:\Users\Robert Leatherman\Desktop\Backup Projects\LabTracker11-20\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\Razor\Pages\Labs\Edit.g.cshtml.cs
+C:\Users\Robert Leatherman\Desktop\Backup Projects\LabTracker11-20\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\Razor\Pages\Labs\EnrollStudents.g.cshtml.cs
+C:\Users\Robert Leatherman\Desktop\Backup Projects\LabTracker11-20\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\Razor\Pages\Labs\Index.g.cshtml.cs
+C:\Users\Robert Leatherman\Desktop\Backup Projects\LabTracker11-20\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\Razor\Pages\Labs\LaunchLab.g.cshtml.cs
+C:\Users\Robert Leatherman\Desktop\Backup Projects\LabTracker11-20\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\Razor\Pages\Labs\StudentEnroll.g.cshtml.cs
+C:\Users\Robert Leatherman\Desktop\Backup Projects\LabTracker11-20\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\Razor\Pages\Logout.g.cshtml.cs
+C:\Users\Robert Leatherman\Desktop\Backup Projects\LabTracker11-20\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\Razor\Pages\Privacy.g.cshtml.cs
+C:\Users\Robert Leatherman\Desktop\Backup Projects\LabTracker11-20\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\Razor\Pages\Shared\_CookieConsentPartial.g.cshtml.cs
+C:\Users\Robert Leatherman\Desktop\Backup Projects\LabTracker11-20\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\Razor\Pages\Shared\_Layout.g.cshtml.cs
+C:\Users\Robert Leatherman\Desktop\Backup Projects\LabTracker11-20\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\Razor\Pages\Shared\_LoginLayout.g.cshtml.cs
+C:\Users\Robert Leatherman\Desktop\Backup Projects\LabTracker11-20\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\Razor\Pages\Shared\_RegisterLayout.g.cshtml.cs
+C:\Users\Robert Leatherman\Desktop\Backup Projects\LabTracker11-20\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\Razor\Pages\Shared\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\Robert Leatherman\Desktop\Backup Projects\LabTracker11-20\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\Razor\Pages\Students\Create.g.cshtml.cs
+C:\Users\Robert Leatherman\Desktop\Backup Projects\LabTracker11-20\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\Razor\Pages\Students\Delete.g.cshtml.cs
+C:\Users\Robert Leatherman\Desktop\Backup Projects\LabTracker11-20\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\Razor\Pages\Students\Details.g.cshtml.cs
+C:\Users\Robert Leatherman\Desktop\Backup Projects\LabTracker11-20\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\Razor\Pages\Students\Edit.g.cshtml.cs
+C:\Users\Robert Leatherman\Desktop\Backup Projects\LabTracker11-20\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\Razor\Pages\Students\Enroll.g.cshtml.cs
+C:\Users\Robert Leatherman\Desktop\Backup Projects\LabTracker11-20\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\Razor\Pages\Students\Index.g.cshtml.cs
+C:\Users\Robert Leatherman\Desktop\Backup Projects\LabTracker11-20\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\Razor\Pages\Students\UnenrollCourse.g.cshtml.cs
+C:\Users\Robert Leatherman\Desktop\Backup Projects\LabTracker11-20\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\Razor\Pages\Students\UnenrollLab.g.cshtml.cs
+C:\Users\Robert Leatherman\Desktop\Backup Projects\LabTracker11-20\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\Razor\Pages\_ViewImports.g.cshtml.cs
+C:\Users\Robert Leatherman\Desktop\Backup Projects\LabTracker11-20\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\Razor\Pages\_ViewStart.g.cshtml.cs
+C:\Users\Robert Leatherman\Desktop\Backup Projects\LabTracker11-20\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\LabTracker.RazorTargetAssemblyInfo.cache
+C:\Users\Robert Leatherman\Desktop\Backup Projects\LabTracker11-20\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\LabTracker.RazorTargetAssemblyInfo.cs
+C:\Users\Robert Leatherman\Desktop\Backup Projects\LabTracker11-20\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\LabTracker.Views.pdb
+C:\Users\Robert Leatherman\Desktop\Backup Projects\LabTracker11-20\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\LabTracker.dll
+C:\Users\Robert Leatherman\Desktop\Backup Projects\LabTracker11-20\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\LabTracker.pdb
+C:\Users\Robert Leatherman\Desktop\Backup Projects\LabTracker11-20\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\LabTracker.csproj.CopyComplete
+C:\Users\Robert Leatherman\source\repos\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\LabTracker.csprojAssemblyReference.cache
+C:\Users\Robert Leatherman\source\repos\LabTracker\LabTracker\bin\Debug\netcoreapp2.1\appsettings.Development.json
+C:\Users\Robert Leatherman\source\repos\LabTracker\LabTracker\bin\Debug\netcoreapp2.1\appsettings.json
+C:\Users\Robert Leatherman\source\repos\LabTracker\LabTracker\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+C:\Users\Robert Leatherman\source\repos\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\Razor\Pages\About.cshtml.g.cs
+C:\Users\Robert Leatherman\source\repos\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\Razor\Pages\Contact.cshtml.g.cs
+C:\Users\Robert Leatherman\source\repos\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\Razor\Pages\Courses\AssignInstructor.cshtml.g.cs
+C:\Users\Robert Leatherman\source\repos\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\Razor\Pages\Courses\Create.cshtml.g.cs
+C:\Users\Robert Leatherman\source\repos\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\Razor\Pages\Courses\Delete.cshtml.g.cs
+C:\Users\Robert Leatherman\source\repos\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\Razor\Pages\Courses\Details.cshtml.g.cs
+C:\Users\Robert Leatherman\source\repos\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\Razor\Pages\Courses\Edit.cshtml.g.cs
+C:\Users\Robert Leatherman\source\repos\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\Razor\Pages\Courses\EnrollStudents.cshtml.g.cs
+C:\Users\Robert Leatherman\source\repos\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\Razor\Pages\Courses\Index.cshtml.g.cs
+C:\Users\Robert Leatherman\source\repos\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\Razor\Pages\Courses\UnenrollStudent.cshtml.g.cs
+C:\Users\Robert Leatherman\source\repos\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\Razor\Pages\Dashboard.cshtml.g.cs
+C:\Users\Robert Leatherman\source\repos\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\Razor\Pages\Error.cshtml.g.cs
+C:\Users\Robert Leatherman\source\repos\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\Razor\Pages\Help.cshtml.g.cs
+C:\Users\Robert Leatherman\source\repos\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\Razor\Pages\Index.cshtml.g.cs
+C:\Users\Robert Leatherman\source\repos\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\Razor\Pages\Instructors\Create.cshtml.g.cs
+C:\Users\Robert Leatherman\source\repos\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\Razor\Pages\Instructors\Delete.cshtml.g.cs
+C:\Users\Robert Leatherman\source\repos\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\Razor\Pages\Instructors\Details.cshtml.g.cs
+C:\Users\Robert Leatherman\source\repos\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\Razor\Pages\Instructors\Edit.cshtml.g.cs
+C:\Users\Robert Leatherman\source\repos\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\Razor\Pages\Instructors\Index.cshtml.g.cs
+C:\Users\Robert Leatherman\source\repos\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\Razor\Pages\Labs\Create.cshtml.g.cs
+C:\Users\Robert Leatherman\source\repos\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\Razor\Pages\Labs\Delete.cshtml.g.cs
+C:\Users\Robert Leatherman\source\repos\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\Razor\Pages\Labs\Details.cshtml.g.cs
+C:\Users\Robert Leatherman\source\repos\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\Razor\Pages\Labs\Edit.cshtml.g.cs
+C:\Users\Robert Leatherman\source\repos\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\Razor\Pages\Labs\EnrollStudents.cshtml.g.cs
+C:\Users\Robert Leatherman\source\repos\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\Razor\Pages\Labs\Index.cshtml.g.cs
+C:\Users\Robert Leatherman\source\repos\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\Razor\Pages\Labs\LaunchLab.cshtml.g.cs
+C:\Users\Robert Leatherman\source\repos\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\Razor\Pages\Labs\StudentEnroll.cshtml.g.cs
+C:\Users\Robert Leatherman\source\repos\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\Razor\Pages\Logout.cshtml.g.cs
+C:\Users\Robert Leatherman\source\repos\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\Razor\Pages\Privacy.cshtml.g.cs
+C:\Users\Robert Leatherman\source\repos\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\Razor\Pages\Shared\_CookieConsentPartial.cshtml.g.cs
+C:\Users\Robert Leatherman\source\repos\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\Razor\Pages\Shared\_Layout.cshtml.g.cs
+C:\Users\Robert Leatherman\source\repos\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\Razor\Pages\Shared\_LoginLayout.cshtml.g.cs
+C:\Users\Robert Leatherman\source\repos\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\Razor\Pages\Shared\_RegisterLayout.cshtml.g.cs
+C:\Users\Robert Leatherman\source\repos\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Robert Leatherman\source\repos\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\Razor\Pages\Students\Create.cshtml.g.cs
+C:\Users\Robert Leatherman\source\repos\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\Razor\Pages\Students\Delete.cshtml.g.cs
+C:\Users\Robert Leatherman\source\repos\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\Razor\Pages\Students\Details.cshtml.g.cs
+C:\Users\Robert Leatherman\source\repos\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\Razor\Pages\Students\Edit.cshtml.g.cs
+C:\Users\Robert Leatherman\source\repos\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\Razor\Pages\Students\Enroll.cshtml.g.cs
+C:\Users\Robert Leatherman\source\repos\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\Razor\Pages\Students\Index.cshtml.g.cs
+C:\Users\Robert Leatherman\source\repos\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\Razor\Pages\Students\UnenrollCourse.cshtml.g.cs
+C:\Users\Robert Leatherman\source\repos\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\Razor\Pages\Students\UnenrollLab.cshtml.g.cs
+C:\Users\Robert Leatherman\source\repos\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\Razor\Pages\_ViewImports.cshtml.g.cs
+C:\Users\Robert Leatherman\source\repos\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\Razor\Pages\_ViewStart.cshtml.g.cs
+C:\Users\Robert Leatherman\source\repos\LabTracker\LabTracker\obj\Debug\netcoreapp2.1\LabTracker.genruntimeconfig.cache

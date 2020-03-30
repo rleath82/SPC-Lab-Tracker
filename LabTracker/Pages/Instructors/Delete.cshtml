@@ -1,0 +1,39 @@
+﻿@page "{id:int}"
+@model LabTracker.Pages.Instructors.DeleteModel
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete your profile?</h3>
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Instructor.Email)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Instructor.Email)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Instructor.LastName)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Instructor.LastName)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Instructor.FirstMidName)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Instructor.FirstMidName)
+        </dd>
+    </dl>
+    
+    <form method="post">
+        <input type="hidden" asp-for="Instructor.InstructorID" />
+        <input type="submit" value="Delete" class="btn btn-default" /> |
+        <a asp-page="./Index">Back to Instructor</a>
+    </form>
+</div>

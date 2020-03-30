@@ -1,0 +1,88 @@
+﻿@page "{id:int}"
+@model LabTracker.Pages.Courses.DetailsModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2>Course Details</h2>
+
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Course.CourseNum)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Course.CourseNum)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Course.Title)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Course.Title)
+        </dd>
+        <dt>
+            Student Enrollments
+            @*@Html.DisplayNameFor(model => model.Course.CourseEnrollments)*@
+        </dt>
+        <dd>
+            <table class="table">
+                <tr>
+                    <th>Last Name</th>
+                    <th>First Name</th>
+                    <th>Student Number</th>
+                </tr>
+                @foreach (var item in Model.Course.CourseEnrollments)
+                {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Student.LastName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Student.FirstMidName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Student.StudentID)
+                    </td>
+                    <td>
+                        @* If the user clicks the remove link next to a student, redirect to the UnenrollStudent page for confirmation. *@
+                        <a asp-page="./UnenrollStudent" asp-route-id="@Model.Course.CourseID" asp-route-studentId="@item.Student.StudentID">Remove</a>
+                    </td>
+                </tr>
+                }
+            </table>
+        </dd>
+        <dt>
+            Instructor Assigned
+            @*@Html.DisplayNameFor(model => model.Course.CourseAssignments)*@
+        </dt>
+        <dd>
+            <table class="table">
+                <tr>
+                    <th>
+                        Professor
+                    </th>
+                </tr>
+                @foreach(var item in Model.Course.CourseAssignments)
+                {
+                    var claimsIdentity = User.Identity as System.Security.Claims.ClaimsIdentity;
+                    var c = claimsIdentity.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier);
+
+                    if(int.Parse(c.Value) == @item.InstructorID) { 
+                        <tr>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Instructor.FullName)
+                            </td>
+                            <td><a asp-page="./Details" asp-route-instructorId="@item.InstructorID">Remove</a></td>
+                        </tr>
+                    }
+                }
+            </table>
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-page="./Edit" asp-route-id="@Model.Course.CourseID">Edit</a> |
+    <a asp-page="./Index">Back to List</a>
+</div>

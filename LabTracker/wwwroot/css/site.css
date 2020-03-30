@@ -1,0 +1,293 @@
+/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification 
+for details on configuring this project to bundle and minify static web assets. */
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    color: white;
+    background-color: #2f5579;
+    background-image: url('../images/brilliant.png');
+    background-repeat: repeat;
+}
+
+.jumbotron {
+    background-color: white;
+    color: #2f5579;
+    background-image: url('../images/titan-2.png');
+    background-position: bottom right;
+    background-size: 194px 150px;
+    background-repeat: no-repeat;
+    /*padding-left: 50px;
+    padding-right: 50px;*/
+}
+
+#loginForm {
+    padding-left: 26em;
+}
+
+a {
+    color: #96c2ea;
+}
+
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar-inverse .btn-link {
+    text-decoration: none;
+}
+
+.navbar-inverse {
+    background-color: #042c51;
+    color: white;
+    border-color: #080808;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: white;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+    color: #c49435;
+    background-color: transparent;
+}
+
+.navbar-inverse .navbar-brand:hover,
+.navbar-inverse .navbar-brand:focus {
+    color: white;
+    background-color: transparent;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #c49435;
+}
+
+input[type="submit"] {
+    color: black;
+}
+
+.launchLabButton {
+    padding-left: 7em;
+}
+
+#launchButton {
+    height: 4em;
+    width: 10em;
+    color: white;
+    background-color: #042c51;
+    border-color: #f5f5f5;
+    border-radius: 25px;
+}
+
+btn {
+    padding: 15px;
+}
+
+select[multiple] {
+    height: 20em;
+}
+
+.image-text {
+    text-align: justify;
+    width: 100px;
+    color: white;
+}
+
+.image-text img {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+}
+
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Carousel */
+.carousel-caption p {
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+/* Make .svg files in the carousel display properly in older browsers */
+.carousel-inner .item img[src$=".svg"] {
+    width: 100%;
+}
+
+/* QR code generator */
+#qrCode {
+    margin: 15px;
+}
+
+/* Hide/rearrange for smaller screens */
+@media screen and (max-width: 767px) {
+    /* Hide captions */
+    .carousel-caption {
+        display: none;
+    }
+}
+
+.table > tbody > tr.success > td {
+    background-color: #8bb1d4 !important;
+}
+
+#selected {
+    background-color: #8bb1d4;
+}
+
+.submit-buttons {
+    padding-bottom: 15px;
+}
+
+.end-lab {
+    text-align: right;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+}
+
+.modal-content animate{
+    background-color: #fefefe;
+    margin: 5% auto 15% auto;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+.modalPop {
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: -70px;
+    width: 95px;
+    height: 95px;
+    border-radius: 50%;
+    z-index: 9;
+    background: #82ce34;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0px 2px 2px rgba(0,0,0,0.1);
+}
+
+.container-modal {
+    padding: 16px;
+    box-sizing: border-box;
+    background: white;
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 70px;
+    width: 40em;
+    height: 26em;
+    border-radius: 15px;
+    z-index: 9;
+    text-align: center;
+    box-shadow: 0px 2px 2px rgba(0,0,0,0.1);
+}
+
+.modal-image {
+    position: absolute;
+    text-align: center;
+}
+
+.modal-text {
+    color: black;
+}
+
+input[type=text], input[type=password] {
+    /*width: 100%;*/
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    color: black;
+    border-radius: 4px;
+    height: 34px;
+}
+
+#studentIDInput {
+    width: 50%;
+    margin: 0 auto;
+    display: block;
+    border: 1px solid #ccc;
+    padding: 12px 20px;
+    border-color: #2f2f2f;
+}
+
+.student-input {
+    padding-bottom: 15px;
+    margin-top: -10px;
+}
+
+#signInBtn {
+    color: white;
+    background-color: #042c51;
+}
+
+#signOutBtn {
+    color: white;
+    background-color: #2f5579;
+}
+
+.alert-info {
+    background-color: white;
+    border: none;
+    position: center;
+    text-align: center;
+
+}
+
+/* Add Zoom Animation */
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {
+        -webkit-transform: scale(0)
+    }
+
+    to {
+        -webkit-transform: scale(1)
+    }
+}
+
+@keyframes animatezoom {
+    from {
+        transform: scale(0)
+    }
+
+    to {
+        transform: scale(1)
+    }
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
+
+    .cancelbtn {
+        width: 100%;
+    }
+}

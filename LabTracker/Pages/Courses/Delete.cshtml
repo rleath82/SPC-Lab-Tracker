@@ -1,0 +1,33 @@
+﻿@page "{id:int}"
+@model LabTracker.Pages.Courses.DeleteModel
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this course?</h3>
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Course.CourseNum)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Course.CourseNum)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Course.Title)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Course.Title)
+        </dd>
+    </dl>
+    
+    <form method="post">
+        <input type="hidden" asp-for="Course.CourseID" />
+        <input type="submit" value="Delete" class="btn btn-default" /> |
+        <a asp-page="./Index">Back to List</a>
+    </form>
+</div>
